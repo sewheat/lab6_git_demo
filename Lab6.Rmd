@@ -374,7 +374,6 @@ earnings_df_4 <- earnings_df %>%
 
 m6 <- lm(earn ~ age_recode + edu + female + black + other + edu*female + age_sq, data = earnings_df_4)
 
-anova(m5, m6)
 
 ```
 
